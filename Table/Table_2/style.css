@@ -1,0 +1,31 @@
+body {
+  width: 350px;
+  margin: 0;
+  padding: 0 10px;
+
+  font-size: 14px;
+  font-family: "Arial", sans-serif;
+}
+
+/*
+.pink {
+  background-color: pink;       was created for clarity
+}*/
+
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  caption-side: bottom;
+}
+
+th {
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid lightgray;
+}

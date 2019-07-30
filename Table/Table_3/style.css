@@ -1,0 +1,49 @@
+body {
+  width: 350px;
+  margin: 0;
+  padding: 0 10px;
+  font-size: 14px;
+  font-family: "Arial", sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  color: white;
+  background-color: darkcyan;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+td {
+  width: 33%;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.header {
+  background-color: lightblue;
+}
+
+.column-1 {
+  text-align: left;
+}
+
+.column-2 {
+  text-align: center;
+}
+
+.column-3 {
+  text-align: right;
+}
+
+.row-2 {
+  background-color: lightyellow;
+}
+
+.row-4 {
+  background-color: lightyellow;
+}
