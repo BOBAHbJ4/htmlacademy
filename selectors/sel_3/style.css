@@ -1,0 +1,10 @@
+.first+li,
+.fourth+li {
+  background-color: red;
+}
+
+.first,
+.fourth,
+.first+li+li {
+  background-color: white;
+}
