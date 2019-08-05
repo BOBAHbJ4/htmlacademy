@@ -1,0 +1,11 @@
+em {
+  display: none;
+}
+
+td:hover em {
+  display: inline;
+}
+
+td:hover {
+  color: #0088cc;
+}
