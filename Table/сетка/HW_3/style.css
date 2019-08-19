@@ -1,0 +1,131 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 450px;
+  height: 335px;
+
+  font-size: 10px;
+  font-family: "Arial", sans-serif;
+  color: white;
+}
+
+.container {
+  height: 170px;
+  background-color: #34495e;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header {
+  background-color: #c0392b;
+}
+
+.header.layout {
+  padding: 5px 0 0 5px;
+  float: left;
+  width: 345px;
+  height: 30px;
+  margin-left: 50px;
+  margin-top: 10px;
+
+}
+
+.menu {
+  background-color: #3498db;
+}
+
+.menu.layout {
+  padding: 5px 0 0 5px;
+  float: left;
+  width: 400px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 50px;
+}
+
+.promo1 {
+  background-color: #c0392b;
+}
+
+.promo1.layout {
+  padding: 5px 0 0 5px;
+  float: left;
+  width: 165px;
+  height: 55px;
+  margin-left: 50px;
+}
+
+.promo2 {
+  background-color: #c0392b;
+
+}
+
+.promo2.layout {
+  padding: 5px 0 0 5px;
+  float: left;
+  width: 165px;
+  height: 55px;
+  margin-left: 10px;
+}
+
+.left {
+  background-color: #3498db;
+
+}
+
+.left.layout {
+  padding: 5px 0 0 5px;
+  float: left;
+  height: 105px;
+  width: 65px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.main {
+  background-color: #3498db;
+
+}
+
+.main.layout {
+  padding: 5px 0 0 5px;
+  float: left;
+  height: 105px;
+  width: 185px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.right {
+  background-color: #3498db;
+
+}
+
+.right.layout {
+  padding: 5px 0 0 5px;
+  float: left;
+  height: 105px;
+  width: 65px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.footer {
+  padding: 5px 0 0 10px;
+  padding-left: 50px;
+  width: 400px;
+  height: 30px;
+  background-color: #34495e;
+}
